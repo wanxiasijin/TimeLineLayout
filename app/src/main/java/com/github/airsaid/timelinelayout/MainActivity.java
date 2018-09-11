@@ -19,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mTimeLineLayout = (TimeLineLayout) findViewById(R.id.timeLineLayout);
         mTimeLineLayout.setData(getLines());
+
+
+        //sddddddddd
     }
 
     private List<CharSequence> getLines(){
